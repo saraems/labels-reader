@@ -39,5 +39,4 @@ public class UrlCheck {
 
         return returnMessage;
     }
-
 }
