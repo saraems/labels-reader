@@ -38,6 +38,27 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<dependency>
+			<groupId>newSDK.conncet.library</groupId>
+			<artifactId>newSDK-connect</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>${project.basedir}/libs/connect-lib.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>newSDK.reader.library</groupId>
+			<artifactId>newSDK-reader</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>${project.basedir}/libs/reader-lib.jar</systemPath>
+		</dependency>
+		<dependency>
+			<groupId>newSDK.rxtx.library</groupId>
+			<artifactId>newSDK-rxtx</artifactId>
+			<scope>system</scope>
+			<version>1.0</version>
+			<systemPath>${project.basedir}/libs/RXTXcomm.jar</systemPath>
+		</dependency>
 	</dependencies>
 
 	<build>
@@ -53,7 +74,7 @@
 						</exclude>
 					</excludes>
 				</configuration>
-			</plugin>
+			</plugin>			
 		</plugins>
 	</build>
 
